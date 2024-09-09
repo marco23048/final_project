@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Graphics Final Project</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end; 
+            background: url('assets/background_start.png') no-repeat center center fixed; 
+            height: 100vh;
+            color: #fff;
+            background-size: cover; 
+            font-family: cursive;
+            margin: 0;
+            cursor: pointer;
+        }
+        
+        h1 {
+            margin-bottom: 50px; 
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+        h1:hover{
+            color: yellow;
+        }
+        #click-text {
+            position: absolute;
+            bottom: 30px; 
+            left: 50%;
+            transform: translateX(-50%);
+            cursor: pointer;
+            font-size: 15px; 
+            color: white; 
+        }
+    </style>
+</head>
+<body>
+    <div id="click-text"><h1>CLICK HERE TO START GAME</h1> </div>
+    <script>
+        document.getElementById('click-text').addEventListener('click', function() {
+            window.location.href = 'index.html';
+        });
+    </script>
+</body>
+</html>

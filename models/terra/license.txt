@@ -1,0 +1,11 @@
+Model Information:
+* title:	Pavimento Pompeya OP
+* source:	https://sketchfab.com/3d-models/pavimento-pompeya-op-f37270b77dc04e7cb654bfe32765b756
+* author:	jolabra33 (https://sketchfab.com/jolabra33)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Pavimento Pompeya OP" (https://sketchfab.com/3d-models/pavimento-pompeya-op-f37270b77dc04e7cb654bfe32765b756) by jolabra33 (https://sketchfab.com/jolabra33) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

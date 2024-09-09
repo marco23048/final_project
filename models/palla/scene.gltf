@@ -1,0 +1,248 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 6171,
+      "max": [
+        4.790923595428467,
+        4.886508464813232,
+        4.793989658355713
+      ],
+      "min": [
+        -4.790924072265625,
+        -4.886508464813232,
+        -4.793989658355713
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 74052,
+      "componentType": 5126,
+      "count": 6171,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 6171,
+      "max": [
+        0.9741812944412231,
+        0.9906265735626221
+      ],
+      "min": [
+        0.009211719036102295,
+        0.009373486042022705
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 36096,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Bruce Lima (https://sketchfab.com/bw.lima)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/spalding-basket-ball-db5f9c28708142909b15212625a127f9",
+      "title": "Spalding Basket Ball"
+    },
+    "generator": "Sketchfab-12.68.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 144384,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 49368,
+      "byteOffset": 144384,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 148104,
+      "byteOffset": 193752,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 341856,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/aiStandardSurface1_baseColor.png"
+    },
+    {
+      "uri": "textures/aiStandardSurface1_metallicRoughness.png"
+    }
+  ],
+  "materials": [
+    {
+      "name": "aiStandardSurface1",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 1
+        },
+        "roughnessFactor": 0.5357728209531257
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "pSphere1_aiStandardSurface1_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        2.220446049250313e-16,
+        -1.0,
+        -2.220446049250313e-16,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        4.930380657631324e-32,
+        0.0,
+        6.557798769790679e-06,
+        1.1252978765696753e-05,
+        2.498663224258902e-21,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "5af7a84b609646aca4d2f37cb998b0f3.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        0.9829446077346802,
+        3.0289319259362975e-33,
+        -5.456438677190922e-17,
+        0.0,
+        -5.365498109774597e-17,
+        2.1461992439098394e-16,
+        -0.9665622115135193,
+        0.0,
+        3.0289319259362975e-33,
+        0.9829446077346802,
+        2.1825754708763693e-16,
+        0.0,
+        2.3435225671164517e-07,
+        2.384185791015625e-07,
+        -0.061068445444107056,
+        1.0
+      ],
+      "name": "pSphere1"
+    },
+    {
+      "mesh": 0,
+      "name": "pSphere1_aiStandardSurface1_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}

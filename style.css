@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#instructions {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    background-color: rgba(200, 9, 9, 0.8);
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    border-radius: 6px;
+    z-index: 10; 
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+
+

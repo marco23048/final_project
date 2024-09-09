@@ -1,0 +1,11 @@
+Model Information:
+* title:	Spalding Basket Ball
+* source:	https://sketchfab.com/3d-models/spalding-basket-ball-db5f9c28708142909b15212625a127f9
+* author:	Bruce Lima (https://sketchfab.com/bw.lima)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Spalding Basket Ball" (https://sketchfab.com/3d-models/spalding-basket-ball-db5f9c28708142909b15212625a127f9) by Bruce Lima (https://sketchfab.com/bw.lima) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
