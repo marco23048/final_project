@@ -1,3 +1,4 @@
+
 import * as THREE from './utils/three.module.js';
 
 
@@ -116,7 +117,7 @@ export function initCharacters(loadedModels, scene) {
     const renderer = new THREE.WebGLRenderer();
     renderer.setSize(window.innerWidth, window.innerHeight);
     document.body.appendChild(renderer.domElement);
-    // Configurazione del clock
+    
     const clock = new THREE.Clock();
     
     const amplitude = 8;  // Altezza massima del rimbalzo
@@ -127,6 +128,7 @@ export function initCharacters(loadedModels, scene) {
     let isTransitioning= false;
     const initialPosition = new THREE.Vector3(-40, 10, -74); // Posizione iniziale della palla
     // Funzione per avviare l'animazione
+            
 function startAnimation() {
     if (isAnimating==false) {
         console.log("Starting animation");
@@ -204,15 +206,17 @@ function rimbalzo() {
             // Interpola la posizione della palla verso la posizione iniziale
             palla.position.lerp(initialPosition, transitionSpeed * clock.getDelta());
         } else {
+            // Assicurati che la palla sia esattamente alla posizione iniziale
             palla.position.copy(initialPosition);
             isTransitioning = false; // Ferma la transizione
         }
         // Renderizza la scena
         renderer.render(scene, camera);
-        // Richiama la funzione tic nel prossimo frame
         requestAnimationFrame(rimbalzo);
     }
 }
+
+
 
      if (palla) {
         palla.position.copy(initialPosition);
@@ -382,7 +386,6 @@ function initialPoseGiocatore(giocatore) {
         difensore.bones.foot_right.rotation.set(degToRad(80), degToRad(0), degToRad(-10));        
         }
 
-
 // Funzione di animazione
 export function palleggio(){
     console.log('Animazione palleggio avviata');
@@ -437,7 +440,7 @@ export function TiroGiocatore() {
     // Salva la posizione iniziale della palla
     var initialPallaPosition = new THREE.Vector3().copy(palla.position);
 
-    // Calcola la posizione target della palla 
+    // Calcola la posizione target della palla in base allo stato corrente
     var targetPallaPosition = isBallRaised
         ? new THREE.Vector3(initialPallaPosition.x, initialPallaPosition.y - 8, initialPallaPosition.z - 2.5) // Posizione più bassa
         : new THREE.Vector3(initialPallaPosition.x, initialPallaPosition.y + 8, initialPallaPosition.z + 2.5); // Posizione più alta
@@ -592,12 +595,12 @@ export function TiroGiocatore() {
                 fermarePalla();
                 palla.position.set(palla.position.x, difensore.mesh.position.y+20, palla.position.z);
                 console.log('Palla fermata dal difensore in salto!');
-                bounceBall(palla.position.y);
+                bounceBall(palla.position.y); // Usa la funzione estratta
             }
         })
         .onComplete(function () {
                 console.log('Tiro completato! Inizio animazione di rimbalzo.');
-                bounceBall(initialBounceHeight); 
+                bounceBall(initialBounceHeight); // Usa la funzione estratta
         })
     pallaTween.start();
     animationTweens.push(pallaTween);
